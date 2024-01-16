@@ -18,7 +18,9 @@ public:
         if(root1->val != root2->val)return false;
         
         bool r=chk(root1->left,root2->right);
+        if(r==false)return 0;
         bool l=chk(root1->right,root2->left);
+        if(l==0)return 0;
         if( root1->val == root2->val && r && l)return true;
         return false;
     }
