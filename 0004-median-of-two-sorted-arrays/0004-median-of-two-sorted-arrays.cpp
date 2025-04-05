@@ -1,92 +1,50 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        
+        int n1=nums1.size();
+        int n2=nums2.size();
 
-        int len1 = nums1.size();
-        int len2 = nums2.size();
-        int total = len1 + len2;
-
-        int half_first = total / 2;
-        int half_second = half_first - 1;
-        int index_first = 0;
-        int index_second = 0;
-        int i = 0;
-        int j = 0;
-        int cnt = 0;
-        while (i < len1 && j < len2)
-        {
-            if (nums1[i] < nums2[j])
-            {
-                if (cnt == half_first)
-                {
-                    index_first = nums1[i];
-                    cnt++;
-                    break;
-                }
-
-                if (cnt == half_second)
-                {
-                    index_second = nums1[i];
-                }
-                i++;
-                cnt++;
-            }
-            else
-            {
-                if (cnt == half_first)
-                {
-                    index_first = nums2[j];
-                    cnt++;
-                    break;
-                }
-
-                if (cnt == half_second)
-                {
-                    index_second = nums2[j];
-                }
-
-                j++;
-
-                cnt++;
-            }
+        if(n1>n2){
+            return findMedianSortedArrays(nums2,nums1);
         }
-        while (i < len1)
-        {
-            if (cnt == half_first)
-            {
-                index_first = nums1[i];
-                cnt++;
-                break;
+        //handling the odd case
+        int left=(n1+n2+1)/2;
+        int s=0,e=n1;
+        int n=n1+n2;
+
+        while(s<=e){
+            int mid1=s+(e-s)/2;
+            int mid2=left-mid1;
+
+            int l1=INT_MIN,l2=INT_MIN;
+            int r1=INT_MAX,r2=INT_MAX;
+
+            if(mid1<n1)r1=nums1[mid1];
+            if(mid2<n2)r2=nums2[mid2];
+
+            if(mid1-1>=0)l1=nums1[mid1-1];
+            if(mid2-1>=0)l2=nums2[mid2-1];
+
+
+            if(l1<=r2 && l2<=r1){
+                if(n%2==1){
+                    //odd length
+                    return max(l1,l2);
+                }
+                else{
+                    //even length
+                    return (double) (max(l1,l2)+min(r1,r2))/2;
+                }
             }
-            if (cnt == half_second)
-            {
-                index_second = nums1[i];
+            else if(l1>r2){
+                e=mid1-1;
             }
-            i++;
-            cnt++;
-        }
-        while (j < len2)
-        {
-            if (cnt == half_first)
-            {
-                index_first = nums2[j];
-                cnt++;
-                break;
+            else{
+                s=mid1+1;
             }
 
-            if (cnt == half_second)
-            {
-                index_second = nums2[j];
-            }
-            j++;
-
-            cnt++;
         }
-        if (total % 2 == 0)
-        {
-            return (index_first + index_second) / 2.0;
-        }
-        return index_first;
+        return 0;
     }
-
 };
