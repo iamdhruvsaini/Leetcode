@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/iamdhruvsaini/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/iamdhruvsaini/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0189-rotate-array) |
+| [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
@@ -120,4 +121,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## String
+|  |
+| ------- |
+| [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 <!---LeetCode Topics End-->
