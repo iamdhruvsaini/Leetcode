@@ -129,9 +129,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
 | [2032-largest-odd-number-in-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/2032-largest-odd-number-in-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
