@@ -1,32 +1,33 @@
 class Solution {
 public:
-    void solve(string digits,  vector<string> &ans,int index,string output,string mapping[]){
-        if(index>=digits.length()){
-            ans.push_back(output);
+    void solve(string &digits, vector<string>&phone, vector<string>&ans, string temp, int index ){
+        if(index==digits.size()){
+            ans.push_back(temp);
             return;
         }
-        int number = digits[index]-'0';
-        string str=mapping[number];
-        for(int i=0;i<str.length();i++){
-            output.push_back(str[i]);
-             solve(digits,ans,index+1,output,mapping);
-             output.pop_back();
+
+        int digit=digits[index]-'0';
+
+        string keys=phone[digit];
+        for(int i=0;i<keys.size();i++){
+            // consider taking the key 
+            temp.push_back(keys[i]);
+            solve(digits,phone,ans,temp,index+1);
+            temp.pop_back();
 
         }
-
-    
-    }
-    vector<string> letterCombinations(string digits) {
-        vector<string> ans;
-        if(digits.length()==0){
-            return ans;
-        }
-        int index=0;
-        string output="";
-        string mapping[10]={"", "","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-        solve(digits,ans,index,output,mapping);
-        return ans;
 
         
+    }
+
+    vector<string> letterCombinations(string digits) {
+        if(digits=="")return  {};
+        vector<string>phone={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        vector<string>ans;
+        string temp="";
+        solve(digits,phone,ans,temp,0);
+
+        return ans;
+
     }
 };
