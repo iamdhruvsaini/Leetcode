@@ -47,12 +47,32 @@ public:
         return dp[0][1];
     }
 
+    int solveMemOptimized(vector<int>& satisfaction){
+
+        int n=satisfaction.size();
+        vector<int>curr(n+2,0);
+        vector<int>next(n+2,0);
+
+        for(int index=n-1;index>=0;index--){
+            for(int timeTaken=n;timeTaken>=1;timeTaken--){
+                int inclusion=satisfaction[index]*timeTaken+next[timeTaken+1];
+                int exclusion=0+next[timeTaken];
+                curr[timeTaken]=max(inclusion,exclusion);
+            }
+            next=curr;
+        }
+
+        return curr[1];
+
+
+    }
+
 
     int maxSatisfaction(vector<int>& satisfaction) {
 
         int n=satisfaction.size();
         sort(satisfaction.begin(),satisfaction.end());
         vector<vector<int>>dp(n,vector<int>(n+1,-1));
-        return solveTabulation(satisfaction);
+        return solveMemOptimized(satisfaction);
     }
 };
