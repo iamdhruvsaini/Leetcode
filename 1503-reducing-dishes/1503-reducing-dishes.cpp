@@ -31,12 +31,28 @@ public:
 
     }
 
+    int solveTabulation(vector<int>& satisfaction){
+        int n=satisfaction.size();
+        vector<vector<int>>dp(n+1,vector<int>(n+2,0));
+        
+
+        for(int index=n-1;index>=0;index--){
+            for(int timeTaken=n;timeTaken>=1;timeTaken--){
+                int inclusion=satisfaction[index]*timeTaken+dp[index+1][timeTaken+1];
+                int exclusion=0+dp[index+1][timeTaken];
+                dp[index][timeTaken]=max(inclusion,exclusion);
+            }
+        }
+
+        return dp[0][1];
+    }
+
 
     int maxSatisfaction(vector<int>& satisfaction) {
 
         int n=satisfaction.size();
         sort(satisfaction.begin(),satisfaction.end());
         vector<vector<int>>dp(n,vector<int>(n+1,-1));
-        return solveMemoization(satisfaction,0,1,dp);
+        return solveTabulation(satisfaction);
     }
 };
