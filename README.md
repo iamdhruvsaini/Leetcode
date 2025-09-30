@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/iamdhruvsaini/Leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/iamdhruvsaini/Leetcode/tree/master/0907-koko-eating-bananas) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0354-russian-doll-envelopes](https://github.com/iamdhruvsaini/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/iamdhruvsaini/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
