@@ -1,43 +1,59 @@
 class Solution {
 public:
-    string longestPalindrome(string arr) {
-        int n=arr.size();
-        if(n<=1)return arr;
-        string ans="";
 
-        int maxlen=INT_MIN;
-        for(int i=0;i<n;i++){
-            // check for odd substrings
-            int s=i-1;
-            int e=i+1;
-           
-            while(s>=0 && e<n && arr[e]==arr[s]){
-                s--;
-                e++;
-            }
+string solve(string &s){
+  int n=s.size();
+  
+  int maxi=-1;
+  int start=-1;
+  
+  for(int i=0;i<n;i++){
+    
+    // even palindrome
+    int left=i;
+    int right=i+1;
+    int evenLen=-1;
+    
+    while(left>=0 && right<n && s[left]==s[right]){
+      evenLen=max(evenLen,right-left+1);
+      left--;
+      right++;
+      
+    }
+    
+    if(evenLen>maxi){
+      maxi=evenLen;
+      start=left+1;
+    }
+    
+    // odd len palindrome
+    left=i-1;
+    right=i+1;
+    int oddLen=-1;
+    
+    while( left>=0 && right<n && s[left]==s[right]){
+      oddLen=max(oddLen,right-left+1);
+      left--;
+      right++;
+    }
+    
+    if(oddLen>maxi){
+      maxi=oddLen;
+      start=left+1;
+    }
+  }
+  
+  
+  
+  if(maxi==-1)return s.substr(0,1);
+  else{
+    return s.substr(start,maxi);
+  }  
+  
+}
 
-            int oddlen=e-s-1;
-            maxlen=max(maxlen,oddlen);
-            if(maxlen==oddlen){
-                ans=arr.substr(s+1,oddlen);
-            }
-
-            // even len
-            s=i;
-            e=i+1;
-            while(s>=0 && e<n && arr[e]==arr[s]){
-                s--;
-                e++;
-            }
-
-            int evenlen=e-s-1;
-            maxlen=max(maxlen,evenlen);
-            if(maxlen==evenlen){
-                ans=arr.substr(s+1,evenlen);
-            }
-
-        }
-
-        return ans;
+    string longestPalindrome(string s) {
+        return solve(s);
+        
     }
 };
