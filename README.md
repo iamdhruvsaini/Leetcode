@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/iamdhruvsaini/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/iamdhruvsaini/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/iamdhruvsaini/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/iamdhruvsaini/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/iamdhruvsaini/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Linked List
 |  |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -350,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -359,4 +363,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/iamdhruvsaini/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
