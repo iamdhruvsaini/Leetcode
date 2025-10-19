@@ -12,26 +12,34 @@
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        //we will do by morris traversal
-        TreeNode * curr=root;
-        while(curr!=NULL){
-            if(curr->left==NULL){
-                curr=curr->right;
+
+        if(root==NULL)return ;
+        TreeNode * head=root;
+        TreeNode * ans=head;
+
+        while(head!=NULL){
+            if(head->left==NULL){
+                head=head->right;
             }
             else{
-                TreeNode * pred = curr->left;
-                while(pred->right!=NULL && pred->right!=curr->right){
-                    pred=pred->right;
+                TreeNode * temp=head->left;
+                while(temp->right!=NULL && temp->right!=NULL){
+                    temp=temp->right;
                 }
-                if(pred->right==NULL){
-                    pred->right=curr->right;
-                    curr->right=curr->left;
-                    curr->left = NULL;
-                    //curr=curr->right;
+
+                if(temp->right==NULL){
+                  temp->right=head->right;
+                  TreeNode * leftNode=head->left;
+                  head->right=leftNode;
+                  head->left=NULL;
+                  head=leftNode;
                 }
-                 curr=curr->right;   
+                else{
+                    head=temp->right;
+                }
             }
         }
-        return;
+
+
     }
 };
