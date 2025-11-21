@@ -20,7 +20,8 @@ public:
             }
         }
 
-
+        int delr[]={-1,0,1,0};
+        int delc[]={0,1,0,-1};
         while(!q.empty()){
             auto node=q.front();
             q.pop();
@@ -30,8 +31,7 @@ public:
             dis[r][c]=dist;
 
 
-            int delr[]={-1,0,1,0};
-            int delc[]={0,1,0,-1};
+           
 
             for(int i=0;i<4;i++){
                 int nrow=delr[i]+r;
