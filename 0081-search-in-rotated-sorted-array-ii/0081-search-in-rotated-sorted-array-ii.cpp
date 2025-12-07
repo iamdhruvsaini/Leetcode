@@ -1,35 +1,29 @@
 class Solution {
 public:
-    bool search(vector<int>& arr, int target) {
-
-        int s=0;
-        int e=arr.size()-1;
+    int search(vector<int>&arr, int target) {
+        int s=0,e=arr.size()-1;
 
         while(s<=e){
             int mid=s+(e-s)/2;
-
             if(arr[mid]==target){
-                return true;
+                return 1;
             }
-
-            if(arr[mid]==arr[s] && arr[mid]==arr[e]){
+            else if(arr[s]==arr[mid] && arr[mid]==arr[e]){
                 s++;
                 e--;
-                continue;
             }
-            //identify sorted part
             else if(arr[mid]>=arr[s]){
-                //left part is sorted
-                if(target <= arr[mid] && target>=arr[s]){
+                // left part is sorted
+                if(target<=arr[mid] && target >=arr[s]){
                     e=mid-1;
                 }
                 else{
                     s=mid+1;
                 }
             }
-            else{
-                //right part is sorted
-                 if(target >= arr[mid] && target <=arr[e] ){
+            else {
+                // right part is sorted
+                if(target>=arr[mid] && target <=arr[e]){
                     s=mid+1;
                 }
                 else{
@@ -37,7 +31,7 @@ public:
                 }
             }
         }
+
         return 0;
-        
     }
 };
