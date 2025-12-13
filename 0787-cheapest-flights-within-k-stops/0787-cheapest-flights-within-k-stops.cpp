@@ -30,7 +30,7 @@ public:
                 int targetn=it.first;
                 int cost=it.second;
 
-                if((s+1) <=k+1 && (cost+d)<dist[targetn]){
+                if(s<=k && (cost+d)<dist[targetn]){
                     q.push({s+1,{targetn,cost+d}});
                     dist[targetn]=cost+d;
                 }
