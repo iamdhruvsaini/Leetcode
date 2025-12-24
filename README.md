@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0354-russian-doll-envelopes](https://github.com/iamdhruvsaini/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/iamdhruvsaini/Leetcode/tree/master/0455-assign-cookies) |
 | [0540-single-element-in-a-sorted-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/iamdhruvsaini/Leetcode/tree/master/0198-house-robber) |
 | [0354-russian-doll-envelopes](https://github.com/iamdhruvsaini/Leetcode/tree/master/0354-russian-doll-envelopes) |
 | [0410-split-array-largest-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
