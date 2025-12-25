@@ -1,33 +1,25 @@
 class Solution {
 public:
-    int memo[10001]; // Array to store calculated results
+    int solve(vector<int>& coins,int amount,vector<int>&dp){
+        if(amount==0)return 0;
+        if(amount<0)return -1;
+        if(dp[amount]!=-2)return dp[amount];
 
-    int solve(vector<int>& coins, int amount) {
-        // Base cases
-        if (amount == 0) return 0; // 0 coins needed to make 0 amount
-        if (amount < 0) return -1;
-        
-        // If we already calculated this amount, return it
-        if (memo[amount] != -2) return memo[amount];
-
-        int minCoins = INT_MAX;
-
-        for (int coin : coins) {
-            int res = solve(coins, amount - coin);
-            
-            // If the sub-problem was solvable
-            if (res != -1) {
-                minCoins = min(minCoins, 1 + res);
+        int count=INT_MAX;
+        for(int i=0;i<coins.size();i++){
+            int check=solve(coins,amount-coins[i],dp);
+            if(check!=-1){
+                count=min(count,check+1);
             }
         }
+        return dp[amount]=count==INT_MAX?-1:count;
 
-        // Store result in memo: if minCoins is still INT_MAX, mark as -1
-        return memo[amount] = (minCoins == INT_MAX) ? -1 : minCoins;
     }
-
     int coinChange(vector<int>& coins, int amount) {
-        // Initialize memo with a dummy value (-2)
-        fill(begin(memo), end(memo), -2);
-        return solve(coins, amount);
+        
+        vector<int>dp(amount+1,-2);
+        return solve(coins,amount,dp);
+
+        
     }
 };
