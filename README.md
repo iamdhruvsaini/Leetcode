@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/iamdhruvsaini/Leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/iamdhruvsaini/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0812-rotate-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0812-rotate-string) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
