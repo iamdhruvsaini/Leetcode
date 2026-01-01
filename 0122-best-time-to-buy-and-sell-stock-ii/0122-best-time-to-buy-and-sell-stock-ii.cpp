@@ -43,7 +43,35 @@ public:
             return dp[0][1];
         };
 
-        return fnc();
+
+         function<int()>tabulation=[&](){
+            // intialize the base case
+            // dp[n][0]=0;
+            // dp[n][1]=0;
+
+            vector<int>arr1(2,0);
+
+            vector<int>arr2(2,0);
+
+            for(int i=n-1;i>=0;i--){
+                for(int buy=0;buy<=1;buy++){
+                    int profit=0;
+
+                    if(buy){
+                        profit=max(-1*prices[i]+arr1[0], arr1[1]);
+                    }
+                    else{
+                        profit=max(prices[i]+arr1[1], arr1[0]);
+                    }
+                    arr2[buy]=profit;
+                }
+                arr1=arr2;
+            }
+
+            return arr1[1];
+        };
+
+        return tabulation();
 
     }
 };
