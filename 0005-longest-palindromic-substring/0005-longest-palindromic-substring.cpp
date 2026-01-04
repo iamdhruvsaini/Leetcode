@@ -1,54 +1,42 @@
 class Solution {
 public:
-    vector<int> p;
+    string longestPalindrome(string s) {
+        string str="#";
 
-    void run_manacher(const string &s) {
-        int n = s.length();
-        p.assign(n, 1);
+        for(auto ch:s){
+            str+=ch;
+            str+='#';
+        }
 
-        int l = 0, r = 0;
-
-        for (int i = 0; i < n; i++) {
-            if (i < r) {
-                int mirror = l + r - i;
-                p[i] = min(r - i, p[mirror]);
+        int n=str.length();
+        vector<int>p(n,1);
+        int l=0,r=0;
+        for(int i=0;i<n;i++){
+            if(i<r){
+                p[i]=min(r-i,p[r+l-i]);
             }
-
-            while (i + p[i] < n &&
-                   i - p[i] >= 0 &&
-                   s[i + p[i]] == s[i - p[i]]) {
+            while(i+p[i]<n && i-p[i]>=0 && str[i+p[i]]==str[i-p[i]]){
                 p[i]++;
             }
-
-            if (i + p[i] > r) {
-                l = i - p[i];
-                r = i + p[i];
+            if(i+p[i]>r){
+                l=i-p[i];
+                r=i+p[i];
             }
         }
-    }
-
-    string longestPalindrome(string s) {
-        if (s.empty()) return "";
-
-        // Build transformed string
-        string t;
-        for (char c : s) {
-            t += '#';
-            t += c;
-        }
-        t += '#';
-
-        run_manacher(t);
-
+        // for(int i=0;i<n;i++){
+        //     cout<<p[i]<<" ";
+        // }
         int maxLen = 0, center = 0;
-        for (int i = 0; i < (int)t.size(); i++) {
+        for (int i = 0; i < n; i++) {
             if (p[i] > maxLen) {
                 maxLen = p[i];
                 center = i;
             }
         }
 
+        
         int start = (center - maxLen + 1) / 2;
         return s.substr(start, maxLen - 1);
+        
     }
 };
