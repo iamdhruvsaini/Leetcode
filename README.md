@@ -291,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/iamdhruvsaini/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0242-valid-anagram](https://github.com/iamdhruvsaini/Leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/iamdhruvsaini/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0812-rotate-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0812-rotate-string) |
 ## Heap (Priority Queue)
 |  |
@@ -543,4 +545,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0070-climbing-stairs) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
+## Hash Function
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
