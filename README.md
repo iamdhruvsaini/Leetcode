@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1392-longest-happy-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/iamdhruvsaini/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/iamdhruvsaini/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0812-rotate-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0812-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1392-longest-happy-prefix) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -549,8 +551,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
+| [1392-longest-happy-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1392-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
+| [1392-longest-happy-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
