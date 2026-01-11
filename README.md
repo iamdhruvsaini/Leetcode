@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/iamdhruvsaini/Leetcode/tree/master/0621-task-scheduler) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/iamdhruvsaini/Leetcode/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/iamdhruvsaini/Leetcode/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
@@ -561,4 +563,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0214-shortest-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/0214-shortest-palindrome) |
 | [1392-longest-happy-prefix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1392-longest-happy-prefix) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
