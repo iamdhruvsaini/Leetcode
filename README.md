@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
 | [2047-find-a-peak-element-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 ## Binary Search
 |  |
 | ------- |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 ## Counting
 |  |
 | ------- |
