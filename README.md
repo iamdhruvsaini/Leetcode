@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/iamdhruvsaini/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0090-subsets-ii) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 ## Sliding Window
 |  |
 | ------- |
