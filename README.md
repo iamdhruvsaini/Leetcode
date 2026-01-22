@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/iamdhruvsaini/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Sorting
 |  |
 | ------- |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Union Find
 |  |
 | ------- |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/iamdhruvsaini/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -367,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Recursion
 |  |
 | ------- |
@@ -588,4 +593,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+## Ordered Set
+|  |
+| ------- |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 <!---LeetCode Topics End-->
