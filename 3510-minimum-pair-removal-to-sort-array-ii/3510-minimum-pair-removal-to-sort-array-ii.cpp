@@ -25,7 +25,7 @@ public:
             // find the min sum  
             auto it=st.begin();
            // pop it
-            long long sum=it->first;  // CHANGE 1: Changed from int to long long to prevent overflow
+            long long sum=it->first;  // CHANGE 1: Changed from int to long long
             int first=it->second;
             int second=next[first];
             st.erase(it);
@@ -45,13 +45,14 @@ public:
             //  first_prev , a, b, second_next
 
             if(first_prev >=0){
-                // CHANGE 2: Fixed logic - check if OLD pair (first_prev, first) was bad
-                if(nums[first_prev] > nums[first]){
-                    badPairs--;  // Old pair was bad, now it's gone
+                // CHANGE 2: Fixed logic - check transitions between good and bad pairs
+                // Was bad (first_prev > first), becomes good (first_prev <= sum)
+                if(nums[first_prev] > nums[first] && nums[first_prev] <= sum ){
+                    badPairs--;
                 }
-                // CHANGE 3: Fixed logic - check if NEW pair (first_prev, sum) is bad
-                if(nums[first_prev] > sum){
-                    badPairs++;  // New pair is bad
+                // Was good (first_prev <= first), becomes bad (first_prev > sum)
+                else if(nums[first_prev] <= nums[first] && nums[first_prev] > sum ){
+                    badPairs++;
                 }
 
                 // remove the corresponding sum
@@ -62,15 +63,15 @@ public:
             // similarly check for the b and second-next
 
             if(second_next < n){
-                 // CHANGE 4: Fixed logic - check if OLD pair (second, second_next) was bad
-                 if(nums[second] > nums[second_next]){
-                    badPairs--;  // Old pair was bad, now it's gone
+                 // CHANGE 3: Fixed logic - check transitions between good and bad pairs
+                 // Was good (second_next >= second), becomes bad (second_next < sum)
+                 if(nums[second_next] >= nums[second] && nums[second_next] < sum){
+                    badPairs++;
                  }
-                 // CHANGE 5: Fixed logic - check if NEW pair (sum, second_next) is bad
-                 if(sum > nums[second_next]){
-                    badPairs++;  // New pair is bad
+                 // Was bad (second_next < second), becomes good (second_next >= sum)
+                 else if(nums[second_next] < nums[second] && nums[second_next] >= sum){
+                    badPairs--;
                  }
-                
                 // now first remove the earlier sum
                 st.erase({nums[second_next]+nums[second] , second});
                 // add the new one now
@@ -79,13 +80,8 @@ public:
                 prev[second_next]=first;
             }
 
-            // CHANGE 6: Added this line to maintain linked list integrity
-            if(first_prev >= 0) {
-                next[first_prev] = first;
-            }
-
             next[first]=second_next;
-            nums[first]=sum;  // CHANGE 7: Use sum directly instead of recalculating
+            nums[first]=sum;  // CHANGE 4: Use sum directly instead of recalculating
 
             operations++;
         }
