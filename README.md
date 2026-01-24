@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/iamdhruvsaini/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/iamdhruvsaini/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
 | [2047-find-a-peak-element-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/iamdhruvsaini/Leetcode/tree/master/0890-lemonade-change) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
 | [2032-largest-odd-number-in-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Matrix
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 ## Counting
 |  |
