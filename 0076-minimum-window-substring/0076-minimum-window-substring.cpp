@@ -1,42 +1,40 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int low=0,high=0;
-        int minlen=INT_MAX;
+        if(t.size()>s.size())return "";
+
         unordered_map<char,int>mp;
-        for(char ch:t){
-            mp[ch]++;
-        }
-        int char_count=mp.size(),start=-1;
-
-        while(high<s.size()){
-            char ch=s[high];
-            if(mp.find(ch)!=mp.end()){
-                mp[ch]--;
-                if(mp[ch]==0){
-                    char_count--;
-                }
+        for(auto ch:t)mp[ch]++;
+        int i=0,j=0,n=s.size(),count=mp.size();
+        int len=INT_MAX, index=-1;
+        while(j<n){
+            if(mp.find(s[j])!=mp.end()){
+                mp[s[j]]--;
+                if(mp[s[j]]==0)count--;
             }
-            while(char_count==0){
-                if(high-low+1<minlen){
-                    minlen=high-low+1;
-                    start=low;
+
+            while(count==0){
+                if(j-i+1 < len){
+                    len=j-i+1;
+                    index=i;
                 }
-                    char leftChar=s[low];
-                    if(mp.find(leftChar)!=mp.end()){
-                         mp[leftChar]++;
-                         if(mp[leftChar]>0){
-                            char_count++;
-                         }
+                // now remove the ith element
+                if(mp.find(s[i])!=mp.end()){
+                    mp[s[i]]++;
+                    if(mp[s[i]]==1){
+                        count++;
                     }
-                    low++;
-                
+                }
+                i++;
             }
-            high++;
+ 
+            j++;
         }
 
-        if(start==-1)return "" ;
-        return s.substr(start,minlen);
+        if(len==INT_MAX)return "";
+  
+        return s.substr(index,len);
+        
         
     }
 };
