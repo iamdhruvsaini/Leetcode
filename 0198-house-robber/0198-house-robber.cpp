@@ -1,26 +1,33 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int index, vector<int>& dp) {
-        // 1. Base Case: If we go past the last house, we get 0 money.
-        if (index >= nums.size()) {
-            return 0;
+    int solve(vector<int>& nums,int index){
+
+        if(index==0)return nums[0];
+        if(index<0)return 0;
+        // skip current
+        int case1=solve(nums,index-1);
+       
+        int case2=nums[index]+solve(nums,index-2);
+
+        return max(case1,case2);
+    }
+    int rob(vector<int>& nums) {
+        int n=nums.size();
+        vector<int>dp(n+1,0);
+        dp[1]=nums[0];
+
+        for(int i=2;i<=n;i++){
+            int case1=dp[i-1];
+       
+            int case2=nums[i-1]+dp[i-2];
+            dp[i]=max(case1,case2);
+
         }
 
-        // 2. Memoization: Return stored result if already calculated.
-        if (dp[index] != -1) return dp[index];
+        return dp[n];
 
-        // 3. Option 1: Rob current house (and move to index + 2)
-        int rob = nums[index] + solve(nums, index + 2, dp);
 
-        // 4. Option 2: Skip current house (and move to index + 1)
-        int skip = solve(nums, index + 1, dp);
-
-        // 5. Store and return the max of both choices
-        return dp[index] = max(rob, skip);
-    }
-
-    int rob(vector<int>& nums) {
-        vector<int> dp(nums.size(), -1);
-        return solve(nums, 0, dp);
+        // return solve(nums,n-1);
+        
     }
 };
