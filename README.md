@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/iamdhruvsaini/Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0090-subsets-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0090-subsets-ii) |
+| [0120-triangle](https://github.com/iamdhruvsaini/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/iamdhruvsaini/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/iamdhruvsaini/Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/iamdhruvsaini/Leetcode/tree/master/0115-distinct-subsequences) |
+| [0120-triangle](https://github.com/iamdhruvsaini/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/iamdhruvsaini/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
