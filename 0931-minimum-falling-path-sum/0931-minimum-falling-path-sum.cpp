@@ -1,68 +1,48 @@
 class Solution {
 public:
-    int solve(vector<vector<int>>& matrix, int row, int col, vector<vector<int>>& dp) {
-        int n = matrix.size();
-
-        // Boundary check
-        if (col < 0 || col >= n) {
-            return 1e9; // Use a larger value to avoid collisions with real sums
-        }
-        
-        // Base case: Reached the last row
-        if (row == n - 1) {
-            return matrix[row][col];
-        }
-
-        // Memoization check
-        if (dp[row][col] != -1) return dp[row][col];
-
-        // Explore 3 paths
-        int straight = matrix[row][col] + solve(matrix, row + 1, col, dp);
-        int leftDiag = matrix[row][col] + solve(matrix, row + 1, col - 1, dp);
-        int rightDiag = matrix[row][col] + solve(matrix, row + 1, col + 1, dp);
-    
-        return dp[row][col] = min({straight, leftDiag, rightDiag});
-    }
-    int tabulation(vector<vector<int>>& matrix){
+    int solve(vector<vector<int>>& matrix,int index,int c,vector<vector<int>>&dp){
         int n=matrix.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        for(int i=0;i<n;i++){
-            dp[n-1][i]=matrix[n-1][i];
+        if(c < 0 || c>=n)return 1e6;
+        if(index==n-1){
+            return matrix[index][c];
         }
+        if(dp[index][c]!=-1)return dp[index][c];
+        int case1=matrix[index][c]+solve(matrix,index+1,c,dp);
+        int case2=matrix[index][c]+solve(matrix,index+1,c+1,dp);
+        int case3=matrix[index][c]+solve(matrix,index+1,c-1,dp);
 
-        for(int row=n-2;row>=0;row--){
-           for(int col=0;col<n;col++){
-                int straight = matrix[row][col] + dp[row + 1][col];
+        return dp[index][c]=min({case1,case2,case3});
 
-                int leftDiag = 1e9;
-                int rightDiag = 1e9;
-                if(col>0){
-                    leftDiag=matrix[row][col] + dp[row + 1][col-1];
-                }
-                if(col+1 < n){
-                    rightDiag = matrix[row][col] + dp[row + 1][col+1];
-                }
-                dp[row][col]=min({straight, leftDiag, rightDiag});
-           }
-        }
-
-        int ans = 1e9;
-    for(int i = 0; i < n; i++) {
-        ans = min(ans, dp[0][i]);
-    }
-    return ans;
     }
     int minFallingPathSum(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        int ans = INT_MAX;
-    
-        return tabulation(matrix);
-        // vector<vector<int>> dp(n, vector<int>(n, -1)); 
-        
-        // for (int i = 0; i < n; i++) {
-        //     ans = min(ans, solve(matrix, 0, i, dp));
-        // }
 
-        // return ans;
+        int n=matrix.size();
+        vector<vector<int>>dp(n,vector<int>(n,-1));
+        
+        // int mini=INT_MAX;
+        // for(int i=0;i<n;i++){
+        //     mini=min(mini,solve(matrix,0,i,dp));
+        // }
+        // return mini;
+        for(int i=0;i<n;i++){
+           dp[n-1][i]=matrix[n-1][i];
+        }
+
+        for(int i=n-2;i>=0;i--){
+            for(int c=n-1;c>=0;c--){
+                int case1=matrix[i][c]+dp[i+1][c];
+                int case2=INT_MAX,case3=INT_MAX;
+                if(c+1 < n){
+                    case2=matrix[i][c]+dp[i+1][c+1];
+                }
+                if(c-1 >= 0){
+                    case3=matrix[i][c]+dp[i+1][c-1];
+                }
+                dp[i][c]=min({case1,case2,case3});
+            }
+        }
+
+        return *min_element(dp[0].begin(),dp[0].end());
+        
     }
 };
