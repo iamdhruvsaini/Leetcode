@@ -618,11 +618,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/iamdhruvsaini/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/iamdhruvsaini/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/iamdhruvsaini/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Doubly-Linked List
 |  |
