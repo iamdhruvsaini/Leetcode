@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/iamdhruvsaini/Leetcode/tree/master/0621-task-scheduler) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/iamdhruvsaini/Leetcode/tree/master/0704-binary-search) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/iamdhruvsaini/Leetcode/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/iamdhruvsaini/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/iamdhruvsaini/Leetcode/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/iamdhruvsaini/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/iamdhruvsaini/Leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/iamdhruvsaini/Leetcode/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
@@ -333,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0812-rotate-string) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1092-shortest-common-supersequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1092-shortest-common-supersequence) |
@@ -475,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/iamdhruvsaini/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/iamdhruvsaini/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -496,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/iamdhruvsaini/Leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
 | [0662-maximum-width-of-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/iamdhruvsaini/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/iamdhruvsaini/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -616,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Doubly-Linked List
 |  |
