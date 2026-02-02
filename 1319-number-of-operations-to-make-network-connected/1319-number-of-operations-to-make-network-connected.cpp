@@ -2,78 +2,76 @@ class Solution {
 public:
     class DisjointSet{
         public:
-        vector<int>parent,rank;
-        DisjointSet(int n){
-            parent.resize(n+1,0);
-            rank.resize(n+1,0);
+        vector<int>rank,parent;
 
-            for(int i=0;i<=n;i++){
-                parent[i]=i;
-            }
+        DisjointSet(int n){
+            rank.resize(n,0);
+            parent.resize(n,0);
+            for(int i=0;i<n;i++)parent[i]=i;
         }
-        
+
         int findUltimateParent(int u){
             if(parent[u]==u)return u;
 
             return parent[u]=findUltimateParent(parent[u]);
         }
 
-
-        bool sameComponent(int u,int v){
-            int ul_u=findUltimateParent(u);
-            int ul_v=findUltimateParent(v);
-            return ul_u==ul_v;
-        }
-
-        int countParent(){
-            int cnt=0;
-            for(int i=0;i<parent.size();i++){
-                if(parent[i]==i)cnt++;
-            }
-            return cnt;
+        bool checkComponent(int u,int v){
+            return findUltimateParent(u)==findUltimateParent(v);
         }
 
         void unionByRank(int u,int v){
-            int ul_u=findUltimateParent(u);
-            int ul_v=findUltimateParent(v);
+            int ulp_u=findUltimateParent(u);
+            int ulp_v=findUltimateParent(v);
 
-            if(ul_u==ul_v)return;
-
-            else if(rank[ul_u]<rank[ul_v]){
-                parent[ul_u]=ul_v;
+            if(rank[ulp_u]<rank[ulp_v]){
+                parent[ulp_u]=ulp_v;
             }
-            else if(rank[ul_v]<rank[ul_u]){
-                parent[ul_v]=ul_u;
-            }
-            else{
-                parent[ul_u]=ul_v;
-                rank[ul_v]++;
+            else if(rank[ulp_v]<rank[ulp_u]){
+                parent[ulp_v]=ulp_u;
+            }else{
+                parent[ulp_u]=ulp_v;
+                rank[ulp_v]++;
             }
         }
 
     };
     int makeConnected(int n, vector<vector<int>>& connections) {
-        DisjointSet d(n);
 
-        int extra=0;
-        for(auto i:connections){
-            int src=i[0];
-            int dest=i[1];
+        DisjointSet dsu(n);
 
-            if(d.sameComponent(src,dest)){
-               extra++; 
+        // Find the extra nodes
+
+        int cnt=0;
+        for(int i=0;i<connections.size();i++){
+            int u=connections[i][0];
+            int v=connections[i][1];
+            if(dsu.checkComponent(u,v)){
+                // They belong to same component so an extra edge
+                cnt++;
             }
             else{
-                d.unionByRank(src,dest);
+                dsu.unionByRank(u,v);
             }
         }
 
-        int components = d.countParent()-1;
-        int required = components - 1;
+        //Now check for the num of component
+        int comp=0;
+        for(int i=0;i<n;i++){
+            if(dsu.parent[i]==i){
+                comp++;
+            }
+        }
 
-        if (extra >= required) return required;
+        if(cnt>=comp-1){
+            return comp-1;
+        }
         return -1;
 
+
+
+
+        
 
     }
 };
