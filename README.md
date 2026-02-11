@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/iamdhruvsaini/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/iamdhruvsaini/Leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/iamdhruvsaini/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/iamdhruvsaini/Leetcode/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0931-minimum-falling-path-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0931-minimum-falling-path-sum) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/iamdhruvsaini/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1143-longest-common-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/iamdhruvsaini/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -272,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/iamdhruvsaini/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -292,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/iamdhruvsaini/Leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
@@ -343,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/iamdhruvsaini/Leetcode/tree/master/0812-rotate-string) |
 | [0953-reverse-only-letters](https://github.com/iamdhruvsaini/Leetcode/tree/master/0953-reverse-only-letters) |
+| [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
