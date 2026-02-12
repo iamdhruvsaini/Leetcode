@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/iamdhruvsaini/Leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/iamdhruvsaini/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/iamdhruvsaini/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/iamdhruvsaini/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/iamdhruvsaini/Leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/iamdhruvsaini/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/iamdhruvsaini/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/iamdhruvsaini/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/iamdhruvsaini/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Greedy
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/iamdhruvsaini/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/iamdhruvsaini/Leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 ## Counting
