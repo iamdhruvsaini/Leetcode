@@ -21,7 +21,27 @@ public:
 
         vector<vector<int>>dp(m,vector<int>(n,-1));
         
-        return f(m,n,m-1,n-1,dp);
-        
+        // tabulation
+        dp[0][0]=1;
+
+        for(int r=0;r<m;r++){
+            for(int c=0;c<n;c++){
+                // up case
+                if(r==0 && c==0)continue;
+                int case1=0;
+                if(r-1 >= 0){
+                    case1=dp[r-1][c];
+                }
+                // down case
+                int case2=0;
+                if(c-1 >=0){
+                    case2=dp[r][c-1];
+                }
+
+                dp[r][c]=case1+case2;
+
+            }
+        } 
+        return dp[m-1][n-1];       
     }
 };
