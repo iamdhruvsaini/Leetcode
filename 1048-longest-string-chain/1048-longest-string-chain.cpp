@@ -1,46 +1,42 @@
 class Solution {
 public:
-    bool isValid(string &str1,string &str2){
-        /*
-            abb
-            ab
-        */
-        if(str1.length()!=str2.length()+1)return 0;
+    class Compare{
+        public:
+        bool operator()(string a, string b){
+            return a.length()<b.length();
+        }
+    };
 
+    bool check(string &a,string &b){
+        // a length is more than b
+        if(a.length()!=b.length()+1)return false;
         int i=0,j=0;
-        while(i<str1.length()){
-            if(str1[i]==str2[j]){
+        while(i<a.length() && j<b.length()){
+            if(a[i]==b[j]){
                 i++;
                 j++;
             }
-            else{
-               i++;
+            else if(a[i]!=b[j]){
+                i++;
             }
         }
-        return j==str2.length();
+        return j==b.length();
     }
-    class Compare{
-        public:
-        bool operator()(string str1,string str2){
-            return str1.length()<str2.length();
-        }
-    };
     int longestStrChain(vector<string>& words) {
-        int n=words.size();
-        vector<int>dp(n,1);
 
         sort(words.begin(),words.end(),Compare());
-        int maxi=-1;
+        int n=words.size();
+        vector<int>dp(n,1);
+        int maxi=1;
         for(int i=0;i<n;i++){
-            for(int j=0;j<i;j++){
-                if(isValid(words[i],words[j]) && dp[j]+1 > dp[i]){
+            for(int j=i-1;j>=0;j--){
+                if(check(words[i],words[j]) && dp[j]+1 > dp[i]){
                     dp[i]=dp[j]+1;
+                    maxi=max(maxi,dp[i]);
                 }
             }
-            if(dp[i]>maxi){
-                maxi=dp[i];
-            }
         }
+
         return maxi;
         
     }
