@@ -1,34 +1,34 @@
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
+        int n=nums.size();
+        vector<int>dp1(n,1);
+        vector<int>dp2(n,1);
 
-        int n = nums.size();
-        vector<int> dp(n,1), count(n,1);
-
-        int maxi = 1;
-
+        int maxi=1,maxi_index=0;
         for(int i=0;i<n;i++){
-            for(int j=0;j<i;j++){
+            for(int j=i-1;j>=0;j--){
+                if(nums[i]>nums[j] &&  dp1[j]+1 > dp1[i]){
+                    dp1[i]=dp1[j]+1;
+                    dp2[i]=dp2[j];
 
-                if(nums[i] > nums[j] && dp[j] + 1 > dp[i]) {
-                    dp[i] = dp[j] + 1;
-                    count[i] = count[j];
                 }
-
-                else if(nums[i] > nums[j] && dp[j] + 1 == dp[i]) {
-                    count[i] += count[j];
+                else if(nums[i]>nums[j] && dp1[j]+1 == dp1[i]){
+                    dp2[i]+=dp2[j];
                 }
             }
-
-            maxi = max(maxi, dp[i]);
+            if(dp1[i]>maxi){
+                maxi=max(maxi,dp1[i]);
+                maxi_index=i;
+            }
         }
-
-        int ans = 0;
+     
+        int t=0;
         for(int i=0;i<n;i++){
-            if(dp[i] == maxi)
-                ans += count[i];
+            if(dp1[i]==maxi){
+                t+=dp2[i];
+            }
         }
-
-        return ans;
+        return t;
     }
 };
