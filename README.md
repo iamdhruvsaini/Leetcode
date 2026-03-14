@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/iamdhruvsaini/Leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/iamdhruvsaini/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/iamdhruvsaini/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/iamdhruvsaini/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/iamdhruvsaini/Leetcode/tree/master/0733-flood-fill) |
@@ -494,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/iamdhruvsaini/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/iamdhruvsaini/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/iamdhruvsaini/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/iamdhruvsaini/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/iamdhruvsaini/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/iamdhruvsaini/Leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/iamdhruvsaini/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/iamdhruvsaini/Leetcode/tree/master/0322-coin-change) |
@@ -648,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
 | [0827-making-a-large-island](https://github.com/iamdhruvsaini/Leetcode/tree/master/0827-making-a-large-island) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/iamdhruvsaini/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
