@@ -647,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0785-is-graph-bipartite](https://github.com/iamdhruvsaini/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/iamdhruvsaini/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/iamdhruvsaini/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
@@ -654,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/iamdhruvsaini/Leetcode/tree/master/0200-number-of-islands) |
 | [0721-accounts-merge](https://github.com/iamdhruvsaini/Leetcode/tree/master/0721-accounts-merge) |
+| [0785-is-graph-bipartite](https://github.com/iamdhruvsaini/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/iamdhruvsaini/Leetcode/tree/master/0827-making-a-large-island) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/iamdhruvsaini/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
