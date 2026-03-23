@@ -12,10 +12,6 @@ public:
 
             while(j-i+1 - maxFreq > k){
                 mp[s[i]]--;
-                maxFreq=0;
-                for(auto it:mp){
-                    maxFreq=max(maxFreq,it.second);
-                }
                 i++;
             }
 
