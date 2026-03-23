@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/iamdhruvsaini/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/iamdhruvsaini/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/iamdhruvsaini/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/iamdhruvsaini/Leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/iamdhruvsaini/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1503-reducing-dishes](https://github.com/iamdhruvsaini/Leetcode/tree/master/1503-reducing-dishes) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/iamdhruvsaini/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1952-minimum-sideway-jumps](https://github.com/iamdhruvsaini/Leetcode/tree/master/1952-minimum-sideway-jumps) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/iamdhruvsaini/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Greedy
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/iamdhruvsaini/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/iamdhruvsaini/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/iamdhruvsaini/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/iamdhruvsaini/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/iamdhruvsaini/Leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Hash Table
