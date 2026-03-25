@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0931-minimum-falling-path-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0992-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/iamdhruvsaini/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/iamdhruvsaini/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/iamdhruvsaini/Leetcode/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0992-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/iamdhruvsaini/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1048-longest-string-chain](https://github.com/iamdhruvsaini/Leetcode/tree/master/1048-longest-string-chain) |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/iamdhruvsaini/Leetcode/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/iamdhruvsaini/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/iamdhruvsaini/Leetcode/tree/master/0621-task-scheduler) |
+| [0992-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/iamdhruvsaini/Leetcode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Simulation
@@ -472,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/iamdhruvsaini/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/iamdhruvsaini/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0930-binary-subarrays-with-sum](https://github.com/iamdhruvsaini/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1034-subarrays-with-k-different-integers](https://github.com/iamdhruvsaini/Leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/iamdhruvsaini/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/iamdhruvsaini/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
