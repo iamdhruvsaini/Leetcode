@@ -1,19 +1,19 @@
 class Solution {
 public:
-    int climbStairs(int n) {
-        vector<int>dp(n+1,0); 
-        function<int(int)>fnc=[&](int a){
-            if(a==0){
-                return 1;
-            }
-            if(a<0)return 0;
-            if(dp[a]!=0)return dp[a];
-            // 1 step
-            int case1=fnc(a-1);
-            int case2=fnc(a-2);
+    int f(int n,vector<int>&dp){
+        if(n<0)return 0;
+        if(n==0 )return 1;
+        if(dp[n]!=-1)return dp[n];
 
-            return dp[a]=case1+case2;
-        };
-        return fnc(n);
+        int case1=f(n-1,dp);
+        int case2=f(n-2,dp);
+
+        return dp[n]=case1+case2;
+
+    }
+    int climbStairs(int n) {
+        vector<int>dp(n+1,-1);
+        return f(n,dp);
+       
     }
 };
