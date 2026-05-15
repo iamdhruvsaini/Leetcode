@@ -1,25 +1,22 @@
 class Solution {
 public:
-    int f(vector<vector<int>>& mat,int r,int c,  vector<vector<int>>&dp){
-        int n=mat.size(),m=mat[0].size();
-        if(r<0 || c<0 || r>=n || c>=m)return 0;
-        // if there is a stone in path
-        if(mat[r][c]==1)return 0;
+    int f(vector<vector<int>>& grid ,int i,int j, vector<vector<int>>&dp){
 
-        if(r==0 && c==0)return 1;
-        if(dp[r][c]!=-1)return dp[r][c];
+        if(i<0 || j<0)return 0;
+        if(grid[i][j]==1)return 0;
+        if(i==0 && j==0)return 1;
+        if(dp[i][j]!=-1)return dp[i][j];
 
-        // upward move
-        int case1=f(mat,r-1,c,dp);
-        // left move
-        int case2=f(mat,r,c-1,dp);
+        int case1=f(grid,i,j-1,dp);
+        int case2=f(grid,i-1,j,dp);
+        return dp[i][j]=case1+case2;
 
-        return dp[r][c]=case1+case2;
     }
-    int uniquePathsWithObstacles(vector<vector<int>>& mat) {
-        int n=mat.size();
-        int m=mat[0].size();
-        vector<vector<int>>dp(n,vector<int>(m,-1));
-        return f(mat,n-1,m-1,dp);
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        int m=obstacleGrid.size();
+        int n=obstacleGrid[0].size();
+        vector<vector<int>>dp(m,vector<int>(n,-1));
+        return f(obstacleGrid,m-1,n-1,dp);
+        
     }
 };
