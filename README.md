@@ -709,4 +709,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3546-equal-sum-grid-partition-i](https://github.com/iamdhruvsaini/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1092-shortest-common-supersequence](https://github.com/iamdhruvsaini/Leetcode/tree/master/1092-shortest-common-supersequence) |
 <!---LeetCode Topics End-->
